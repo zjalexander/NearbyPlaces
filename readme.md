@@ -14,9 +14,9 @@ You can then use the jsontoexcel to optionally export a json/series of JSON file
 
 **NOTE**: Depending on locale: The maps measure tool may give distance in feet: the Places API takes distance in meters. You may need to convert.
 
-4) Run NearbyPlaces.py as many times as needed. If you run it more than once, save the output to a different json.
+4) Run ```NearbyPlaces.py``` as many times as needed. If you run it more than once, save the output to a different json.
 
-5) If you want an .xls file, check requirements.txt (Pandas) and run jsontoexcel.py which will grab all .jsons in the directory and output an unstyled xlsx. 
+5) If you want an .xls file, check requirements.txt (Pandas) and run ```jsontoexcel.py``` which will grab all .jsons in the directory and output an unstyled xlsx. 
 
 ## Licensing
 
