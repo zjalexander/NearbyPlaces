@@ -8,9 +8,9 @@ You can then use the jsontoexcel to optionally export a json/series of JSON file
 
 1) Configure the [Google Places API](https://developers.google.com/maps/documentation/places/web-service/overview#how-use) to obtain an API key.
 
-2) Store the API key in a .txt called 'google_api_key.txt' (included in .gitignore).
+2) Store the API key in a .txt named ```google_api_key.txt``` (included in .gitignore).
 
-3) Go to Google Maps and right click to obtain lat/long and put them into NearbyPlaces.py. You might want to also use the 'measure' tool to figure out a good radius.
+3) Go to Google Maps and right click to obtain lat/long and put them into ```NearbyPlaces.py```. You might want to also use the Maps 'measure' tool to figure out a good radius.
 
 **NOTE**: Depending on locale: The maps measure tool may give distance in feet: the Places API takes distance in meters. You may need to convert.
 
